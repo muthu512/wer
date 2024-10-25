@@ -1,4 +1,4 @@
-ppipeline {
+pipeline {
     agent any
     tools {
         maven 'Maven 3.9.9' // Replace with the name you used in Jenkins Global Tool Configuration
@@ -18,7 +18,7 @@ ppipeline {
         }
         stage('Deploy') {
             steps {
-                bat 'java -jar target/your-spring-boot-app.jar'
+                bat 'java -jar C:\\Users\\Dell-Lap\\Downloads\\online-1.zip_expanded\\online-1\\target'
             }
         }
     }
